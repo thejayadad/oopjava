@@ -1,6 +1,6 @@
 public class MeatLoversPizza extends Pizza{
     public MeatLoversPizza(boolean veg){
-        super(true);
+        super(false);
         super.addExtraToppings();
         super.addextraCheese();;
     }
